@@ -49,7 +49,7 @@ def welcome_assignment_answers(question):
     # question 8
     elif question == "What layer from the TCP/IP model the protocol TCP belongs to?" \
                      " - The answer should be a numeric number":
-        answer = 2
+        answer = 4
     return answer
 
 
