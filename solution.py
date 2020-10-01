@@ -47,7 +47,7 @@ def welcome_assignment_answers(question):
         answer = 5
 
     # question 8
-    elif question == "What layer from the TCP/IP model the protocol TCP belongs to?" \
+    elif question == "What layer of the TCP/IP model the protocol TCP belongs to?" \
                      " - The answer should be a numeric number":
         answer = 4
     return answer
@@ -57,7 +57,7 @@ if __name__ == "__main__":
     # use this space to debug and verify that the program works
     debug_question = "Are encoding and encryption the same? - Yes/No"
     debug_question2 = "Is it possible to decrypt a message without a key? - Yes/No"
-    debug_question3 = "What layer from the TCP/IP model the protocol TCP belongs to? - The answer should be a " \
+    debug_question3 = "What layer of the TCP/IP model the protocol TCP belongs to? - The answer should be a " \
                       "numeric number"
     debug_question4 = ""
     print(welcome_assignment_answers(debug_question3))
